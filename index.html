@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>KLDeV Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Krzysztof Łęczycki">
+    <meta name="description" content="Brief presentation of beginner web developer Krzysztof Łęczycki projects. They show current state of knowledge of HTML, CSS, JS and Wordpress.">
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+
+  <body>
+    <header>
+      <div id="scrolling" class="nav-wrapper">
+        <div class="nav-bar">
+          <img class="logo" src="logo.svg" alt="page logo">
+           <nav>
+             <button id="menu-btn" class="menu-btn inactive">
+               <svg width="29" height="24" viewBox="0 0 29 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                 <rect width="29" height="4.5"/>
+                 <rect y="19.5" width="29" height="4.5"/>
+                 <rect y="9.75" width="29" height="4.5"/>
+               </svg>
+             </button>
+             <ul id="menu" class="menu closed">
+               <li><a href="#about">About me</a></li>
+               <li><a href="#projects">Projects</a></li>
+               <li><a href="#contact">Contact</a></li>
+             </ul>
+           </nav>
+         </div>
+      </div>
+     
+      <div class="hero">
+        <div class="hero-sub-box">
+          <h1 class="page-title">Web Developer</h1>
+          <p class="page-subtitle">Krzysztof Łęczycki</p>
+          <p role="presentation"  class="page-subtitle mirror">Krzysztof Łęczycki</p>
+          <p role="presentation"  class="page-title mirror">Web Developer</p>
+        </div>
+        <div class="hero-sub-box">
+          <svg class="city-drawing" width="664" height="710" viewBox="0 0 664 710" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="city-buildings">
+              <path d="M377 50C377 36.7392 370.468 24.0215 358.841 14.6447C347.213 5.26784 331.443 1.00116e-06 315 0C298.557 -1.00116e-06 282.787 5.26784 271.159 14.6447C259.532 24.0215 253 36.7392 253 50L315 50H377Z" fill="#525FA0"/>
+            <path d="M253 48H377V338H253V48Z" fill="#525FA0"/>
+            <path d="M28 121H152V338H28V121Z" fill="#3C4573"/>
+            <path d="M173 88H297V338H173V88Z" fill="#4C537A"/>
+            <path d="M329 88H453V338H329V88Z" fill="#4C537A"/>
+            <path d="M476 121H600V338H476V121Z" fill="#3C4573"/>
+            <rect x="396" y="183" width="105" height="155" fill="#292F4E"/>
+            <rect x="438.992" y="325.175" width="19.0158" height="12.8251" fill="#4D578F"/>
+            <rect y="164" width="105" height="174" fill="#1E2339"/>
+            <rect x="8.68115" y="172.638" width="10.3346" height="10.2837" class="win-letter"/>
+            <path d="M27.6969 172.638H38.0315V182.922H27.6969V172.638Z" class="window"/>
+            <rect x="46.7126" y="172.638" width="10.3346" height="10.2837" class="window"/>
+            <rect x="65.7284" y="172.638" width="10.3346" height="10.2837" class="window"/>
+            <rect x="84.7441" y="172.638" width="10.3346" height="10.2837" class="win-letter"/>
+            <path d="M8.68115 208.837H19.0158V219.121H8.68115V208.837Z" class="win-letter"/>
+            <rect x="27.6969" y="208.837" width="10.3346" height="10.2837" class="window"/>
+            <rect x="46.7126" y="208.837" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="65.7284" y="208.837" width="10.3346" height="10.2837" class="window"/>
+            <rect x="84.7441" y="208.837" width="10.3346" height="10.2837" class="window"/>
+            <rect x="8.68115" y="226.936" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="27.6969" y="226.936" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="46.7126" y="226.936" width="10.3346" height="10.2837" class="window"/>
+            <rect x="65.7284" y="226.936" width="10.3346" height="10.2837" class="window"/>
+            <rect x="84.7441" y="226.936" width="10.3346" height="10.2837" class="window"/>
+            <rect x="8.68115" y="245.858" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="27.6969" y="245.858" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="46.7126" y="245.858" width="10.3346" height="10.2837" class="window"/>
+            <rect x="65.7284" y="245.858" width="10.3346" height="10.2837" class="window"/>
+            <rect x="84.7441" y="245.858" width="10.3346" height="10.2837" class="window"/>
+            <rect x="8.68115" y="264.78" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="27.6969" y="264.78" width="10.3346" height="10.2837" class="window"/>
+            <rect x="46.7126" y="264.78" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="65.7284" y="264.78" width="10.3346" height="10.2837" class="window"/>
+            <rect x="84.7441" y="264.78" width="10.3346" height="10.2837" class="window"/>
+            <rect x="8.68115" y="283.702" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="27.6969" y="283.702" width="10.3346" height="10.2837" class="window"/>
+            <rect x="46.7126" y="283.702" width="10.3346" height="10.2837" class="window"/>
+            <rect x="65.7284" y="283.702" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="84.7441" y="283.702" width="10.3346" height="10.2837" class="window"/>
+            <rect x="8.68115" y="302.624" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="27.6969" y="302.624" width="10.3346" height="10.2837" class="window"/>
+            <rect x="46.7126" y="302.624" width="10.3346" height="10.2837" class="window"/>
+            <rect x="65.7284" y="302.624" width="10.3346" height="10.2837" class="window"/>
+            <rect x="84.7441" y="302.624" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="8.68115" y="190.738" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="27.6969" y="190.738" width="10.3346" height="10.2837" class="window"/>
+            <rect x="46.7126" y="190.738" width="10.3346" height="10.2837" class="window"/>
+            <rect x="65.7284" y="190.738" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="84.7441" y="190.738" width="10.3346" height="10.2837" class="window"/>
+            <rect x="42.9922" y="323.603" width="19.0158" height="14.3972" fill="#4D578F"/>
+            <rect x="263" y="164" width="105" height="174" fill="#1E2339"/>
+            <rect x="271.681" y="172.638" width="10.3346" height="10.2837" class="win-letter"/>
+            <path d="M290.697 172.638H301.032V182.922H290.697V172.638Z" class="win-letter"/>
+            <rect x="309.713" y="172.638" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="328.728" y="172.638" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="347.744" y="172.638" width="10.3346" height="10.2837" class="window"/>
+            <path d="M271.681 208.837H282.016V219.121H271.681V208.837Z" class="win-letter"/>
+            <rect x="290.697" y="208.837" width="10.3346" height="10.2837" class="window"/>
+            <rect x="309.713" y="208.837" width="10.3346" height="10.2837" class="window"/>
+            <rect x="328.728" y="208.837" width="10.3346" height="10.2837" class="window"/>
+            <rect x="347.744" y="208.837" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="271.681" y="226.936" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="290.697" y="226.936" width="10.3346" height="10.2837" class="window"/>
+            <rect x="309.713" y="226.936" width="10.3346" height="10.2837" class="window"/>
+            <rect x="328.728" y="226.936" width="10.3346" height="10.2837" class="window"/>
+            <rect x="347.744" y="226.936" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="271.681" y="245.858" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="290.697" y="245.858" width="10.3346" height="10.2837" class="window"/>
+            <rect x="309.713" y="245.858" width="10.3346" height="10.2837" class="window"/>
+            <rect x="328.728" y="245.858" width="10.3346" height="10.2837" class="window"/>
+            <rect x="347.744" y="245.858" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="271.681" y="264.78" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="290.697" y="264.78" width="10.3346" height="10.2837" class="window"/>
+            <rect x="309.713" y="264.78" width="10.3346" height="10.2837" class="window"/>
+            <rect x="328.728" y="264.78" width="10.3346" height="10.2837" class="window"/>
+            <rect x="347.744" y="264.78" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="271.681" y="283.702" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="290.697" y="283.702" width="10.3346" height="10.2837" class="window"/>
+            <rect x="309.713" y="283.702" width="10.3346" height="10.2837" class="window"/>
+            <rect x="328.728" y="283.702" width="10.3346" height="10.2837" class="window"/>
+            <rect x="347.744" y="283.702" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="271.681" y="302.624" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="290.697" y="302.624" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="309.713" y="302.624" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="328.728" y="302.624" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="347.744" y="302.624" width="10.3346" height="10.2837" class="window"/>
+            <rect x="271.681" y="190.738" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="290.697" y="190.738" width="10.3346" height="10.2837" class="window"/>
+            <rect x="309.713" y="190.738" width="10.3346" height="10.2837" class="window"/>
+            <rect x="328.728" y="190.738" width="10.3346" height="10.2837" class="window"/>
+            <rect x="347.744" y="190.738" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="305.992" y="323.603" width="19.0158" height="14.3972" fill="#4D578F"/>
+            <rect x="529" y="164" width="105" height="174" fill="#1E2339"/>
+            <rect x="537.681" y="172.638" width="10.3346" height="10.2837" class="win-letter"/>
+            <path d="M556.697 172.638H567.032V182.922H556.697V172.638Z" class="window"/>
+            <rect x="575.713" y="172.638" width="10.3346" height="10.2837" class="window"/>
+            <rect x="594.728" y="172.638" width="10.3346" height="10.2837" class="window"/>
+            <rect x="613.744" y="172.638" width="10.3346" height="10.2837" class="win-letter"/>
+            <path d="M537.681 208.837H548.016V219.121H537.681V208.837Z" class="win-letter"/>
+            <rect x="556.697" y="208.837" width="10.3346" height="10.2837" class="window"/>
+            <rect x="575.713" y="208.837" width="10.3346" height="10.2837" class="window"/>
+            <rect x="594.728" y="208.837" width="10.3346" height="10.2837" class="window"/>
+            <rect x="613.744" y="208.837" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="537.681" y="226.936" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="556.697" y="226.936" width="10.3346" height="10.2837" class="window"/>
+            <rect x="575.713" y="226.936" width="10.3346" height="10.2837" class="window"/>
+            <rect x="594.728" y="226.936" width="10.3346" height="10.2837" class="window"/>
+            <rect x="613.744" y="226.936" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="537.681" y="245.858" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="556.697" y="245.858" width="10.3346" height="10.2837" class="window"/>
+            <rect x="575.713" y="245.858" width="10.3346" height="10.2837" class="window"/>
+            <rect x="594.728" y="245.858" width="10.3346" height="10.2837" class="window"/>
+            <rect x="613.744" y="245.858" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="537.681" y="264.78" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="556.697" y="264.78" width="10.3346" height="10.2837" class="window"/>
+            <rect x="575.713" y="264.78" width="10.3346" height="10.2837" class="window"/>
+            <rect x="594.728" y="264.78" width="10.3346" height="10.2837" class="window"/>
+            <rect x="613.744" y="264.78" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="537.681" y="283.702" width="10.3346" height="10.2837" class="window"/>
+            <rect x="556.697" y="283.702" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="575.713" y="283.702" width="10.3346" height="10.2837" class="window"/>
+            <rect x="594.728" y="283.702" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="613.744" y="283.702" width="10.3346" height="10.2837" class="window"/>
+            <rect x="537.681" y="302.624" width="10.3346" height="10.2837" class="window"/>
+            <rect x="556.697" y="302.624" width="10.3346" height="10.2837" class="window"/>
+            <rect x="575.713" y="302.624" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="594.728" y="302.624" width="10.3346" height="10.2837" class="window"/>
+            <rect x="613.744" y="302.624" width="10.3346" height="10.2837" class="window"/>
+            <rect x="537.681" y="190.738" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="556.697" y="190.738" width="10.3346" height="10.2837" class="window"/>
+            <rect x="575.713" y="190.738" width="10.3346" height="10.2837" class="window"/>
+            <rect x="594.728" y="190.738" width="10.3346" height="10.2837" class="window"/>
+            <rect x="613.744" y="190.738" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="571.992" y="323.603" width="19.0158" height="14.3972" fill="#4D578F"/>
+            <rect x="130" y="183" width="105" height="155" fill="#292F4E"/>
+            <rect x="172.992" y="325.175" width="19.0158" height="12.8251" fill="#4D578F"/>
+            <rect x="140" y="189" width="10.3346" height="10.2837" class="win-letter"/>
+            <path d="M159.016 189H169.35V199.284H159.016V189Z" class="window"/>
+            <rect x="178.031" y="189" width="10.3346" height="10.2837" class="window"/>
+            <rect x="197.047" y="189" width="10.3346" height="10.2837" class="window"/>
+            <rect x="216.063" y="189" width="10.3346" height="10.2837" class="window"/>
+            <path d="M140 225.199H150.335V235.482H140V225.199Z" class="win-letter"/>
+            <rect x="159.016" y="225.199" width="10.3346" height="10.2837" class="window"/>
+            <rect x="178.031" y="225.199" width="10.3346" height="10.2837" class="window"/>
+            <rect x="197.047" y="225.199" width="10.3346" height="10.2837" class="window"/>
+            <rect x="216.063" y="225.199" width="10.3346" height="10.2837" class="window"/>
+            <rect x="140" y="243.298" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="159.016" y="243.298" width="10.3346" height="10.2837" class="window"/>
+            <rect x="178.031" y="243.298" width="10.3346" height="10.2837" class="window"/>
+            <rect x="197.047" y="243.298" width="10.3346" height="10.2837" class="window"/>
+            <rect x="216.063" y="243.298" width="10.3346" height="10.2837" class="window"/>
+            <rect x="140" y="262.22" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="159.016" y="262.22" width="10.3346" height="10.2837" class="window"/>
+            <rect x="178.031" y="262.22" width="10.3346" height="10.2837" class="window"/>
+            <rect x="197.047" y="262.22" width="10.3346" height="10.2837" class="window"/>
+            <rect x="216.063" y="262.22" width="10.3346" height="10.2837" class="window"/>
+            <rect x="140" y="281.142" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="159.016" y="281.142" width="10.3346" height="10.2837" class="window"/>
+            <rect x="178.031" y="281.142" width="10.3346" height="10.2837" class="window"/>
+            <rect x="197.047" y="281.142" width="10.3346" height="10.2837" class="window"/>
+            <rect x="216.063" y="281.142" width="10.3346" height="10.2837" class="window"/>
+            <rect x="140" y="300.064" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="159.016" y="300.064" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="178.031" y="300.064" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="197.047" y="300.064" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="216.063" y="300.064" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="140" y="207.099" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="159.016" y="207.099" width="10.3346" height="10.2837" class="window"/>
+            <rect x="178.031" y="207.099" width="10.3346" height="10.2837" class="window"/>
+            <rect x="197.047" y="207.099" width="10.3346" height="10.2837" class="window"/>
+            <rect x="216.063" y="207.099" width="10.3346" height="10.2837" class="window"/>
+            <rect x="405" y="189" width="10.3346" height="10.2837" class="win-letter"/>
+            <path d="M424.016 189H434.35V199.284H424.016V189Z" class="win-letter"/>
+            <rect x="443.031" y="189" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="462.047" y="189" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="481.063" y="189" width="10.3346" height="10.2837" class="win-letter"/>
+            <path d="M405 225.199H415.335V235.482H405V225.199Z" class="win-letter"/>
+            <rect x="424.016" y="225.199" width="10.3346" height="10.2837" class="window"/>
+            <rect x="443.031" y="225.199" width="10.3346" height="10.2837" class="window"/>
+            <rect x="462.047" y="225.199" width="10.3346" height="10.2837" class="window"/>
+            <rect x="481.063" y="225.199" width="10.3346" height="10.2837" class="window"/>
+            <rect x="405" y="243.298" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="424.016" y="243.298" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="443.031" y="243.298" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="462.047" y="243.298" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="481.063" y="243.298" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="405" y="262.22" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="424.016" y="262.22" width="10.3346" height="10.2837" class="window"/>
+            <rect x="443.031" y="262.22" width="10.3346" height="10.2837" class="window"/>
+            <rect x="462.047" y="262.22" width="10.3346" height="10.2837" class="window"/>
+            <rect x="481.063" y="262.22" width="10.3346" height="10.2837" class="window"/>
+            <rect x="405" y="281.142" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="424.016" y="281.142" width="10.3346" height="10.2837" class="window"/>
+            <rect x="443.031" y="281.142" width="10.3346" height="10.2837" class="window"/>
+            <rect x="462.047" y="281.142" width="10.3346" height="10.2837" class="window"/>
+            <rect x="481.063" y="281.142" width="10.3346" height="10.2837" class="window"/>
+            <rect x="405" y="300.064" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="424.016" y="300.064" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="443.031" y="300.064" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="462.047" y="300.064" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="481.063" y="300.064" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="405" y="207.099" width="10.3346" height="10.2837" class="win-letter"/>
+            <rect x="424.016" y="207.099" width="10.3346" height="10.2837" class="window"/>
+            <rect x="443.031" y="207.099" width="10.3346" height="10.2837" class="window"/>
+            <rect x="462.047" y="207.099" width="10.3346" height="10.2837" class="window"/>
+            <rect x="481.063" y="207.099" width="10.3346" height="10.2837" class="window"/>
+            </g>
+            <g class="mirror-buildings">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M253.05 631H253V629V341H377V629V631H376.95C376.329 643.534 369.882 655.451 358.841 664.355C347.213 673.732 331.443 679 315 679C298.557 679 282.787 673.732 271.159 664.355C260.118 655.451 253.671 643.534 253.05 631Z" fill="#525FA0"/>
+                <path d="M476 558H600V341H476V558Z" fill="#3C4573"/>
+                <path d="M329 591H453V341H329V591Z" fill="#4C537A"/>
+                <path d="M173 591H297V341H173V591Z" fill="#4C537A"/>
+                <path d="M28 558H152V341H28V558Z" fill="#3C4573"/>
+                <rect width="105" height="155" transform="matrix(1 0 0 -1 396 496)" fill="#292F4E"/>
+                <rect width="105" height="174" transform="matrix(1 0 0 -1 0 515)" fill="#1E2339"/>
+                <rect width="105" height="174" transform="matrix(1 0 0 -1 263 515)" fill="#1E2339"/>
+                <rect width="105" height="174" transform="matrix(1 0 0 -1 529 515)" fill="#1E2339"/>
+                <rect width="105" height="155" transform="matrix(1 0 0 -1 130 496)" fill="#292F4E"/>
+            </g>
+            </svg>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="about">
+        <div class="subtitle-wrapper">
+          <div class="base">
+            <img src="mini-city-left.svg" alt="">
+            <h2 class="section-subtitle">About me</h2>
+            <img src="mini-city-right.svg" alt="">
+          </div>
+          <div class="mirror">
+            <img src="mini-city-left.svg" alt="">
+            <p role="presentation" class="section-subtitle">About me</p>
+            <img src="mini-city-right.svg" alt="">
+          </div>
+        </div>
+        <div class="wrapper">
+          <article class="sub-wrapper">
+            <h3>Self taught dev</h3>
+            <p>
+              My first contact with web technologies was during materials science studies (which I have passed with master's degree a couple of years ago) where I was taught some HTML, CSS and PHP basics. Two simple pages was created by me with table-like style :D. After that I focused on my specialisation.
+            </p>
+            <p>
+              Sitting in home during forced home office let me thought that I wanted to learn something else. The idea of diving into web technologies came up so I have learned creating simple Wordpress websites. Than I have jumped over to front-end holy trinity and I am learning it by heart in my free time. 
+            </p>
+            <p>
+              For now I am able to create Wordpress website with Divi or Gutenberg and static website with plain HTML and CSS adding some interactivity with JS. My learning journey leads through Codecademy front-end path freeCodeCamp and MDN resources.
+            </p>
+          </article>
+          <div class="sub-wrapper">
+            <div class="building-drawing">
+              <div class="roof">
+                <h3>Skills</h3>
+              </div>
+              <div class="middle">
+                <div class="left-side">
+                  <button id="html">HTML</button>
+                  <button id="css">CSS</button>
+                  <button id="js">JS</button>
+                  <button id="wp">Wordpress</button>
+                </div>
+                <div class="right-side">
+                  <div class="pixel" id="1"></div>
+                  <div class="pixel" id="2"></div>
+                  <div class="pixel" id="3"></div>
+                  <div class="pixel" id="4"></div>
+                  <div class="pixel" id="5"></div>
+                  <div class="pixel" id="6"></div>
+                  <div class="pixel" id="7"></div>
+                  <div class="pixel" id="8"></div>
+                  <div class="pixel" id="9"></div>
+                  <div class="pixel" id="10"></div>
+                  <div class="pixel" id="11"></div>
+                  <div class="pixel" id="12"></div>
+                  <div class="pixel" id="13"></div>
+                  <div class="pixel" id="14"></div>
+                  <div class="pixel" id="15"></div>
+                  <div class="pixel" id="16"></div>
+                  <div class="pixel" id="17"></div>
+                  <div class="pixel" id="18"></div>
+                  <div class="pixel" id="19"></div>
+                  <div class="pixel" id="20"></div>
+                  <div class="pixel" id="21"></div>
+                  <div class="pixel" id="22"></div>
+                  <div class="pixel" id="23"></div>
+                  <div class="pixel" id="24"></div>
+                  <div class="pixel" id="25"></div>
+                  <div class="pixel" id="26"></div>
+                  <div class="pixel" id="27"></div>
+                  <div class="pixel" id="28"></div>
+                  <div class="pixel" id="29"></div>
+                  <div class="pixel" id="30"></div>
+                  <div class="pixel" id="31"></div>
+                  <div class="pixel" id="32"></div>
+                  <div class="pixel" id="33"></div>
+                  <div class="pixel" id="34"></div>
+                  <div class="pixel" id="35"></div>
+                </div>
+              </div>
+              <div class="basement">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <div class="subtitle-wrapper">
+          <div class="base">
+            <img src="mini-city-left.svg" alt="">
+            <h2 class="section-subtitle">Projects</h2>
+            <img src="mini-city-right.svg" alt="">
+          </div>
+          <div class="mirror">
+            <img src="mini-city-left.svg" alt="">
+            <p role="presentation" class="section-subtitle">Projects</p>
+            <img src="mini-city-right.svg" alt="">
+          </div>
+        </div>
+        <div class="projects-wrapper">
+          <div class="project-tile" id="pr1">
+            <img src="pictures/therapy-logo.png" alt="logo of therapy page">
+            <div class="project-description pr1">
+              <h3>Philosophical therapy</h3>
+              <p>Wordpress page created with Divi builder with some additional CSS</p>
+            </div>
+          </div>
+          <div class="project-tile" id="pr2">
+            <img src="pictures/spanish-translation-logo.png" alt="logo of Spanish translator page">
+            <div class="project-description">
+              <h3>Spanish translator</h3>
+              <p>Wordpress page created with Divi builder with some additional CSS</p>
+            </div>
+          </div>
+          <div class="project-tile" id="pr3">
+            <img src="pictures/law-office-logo.png" alt="logo of legal advisor's office page">
+            <div class="project-description">
+              <h3>Legal advisor's office</h3>
+              <p>Wordpress page created with Divi builder with some additional CSS</p>
+            </div>
+          </div>
+          <div class="project-tile" id="pr4">
+            <img src="pictures/english-translation-logo.png" alt="logo of English translator page">
+            <div class="project-description">
+              <h3>English translator</h3>
+              <p>Wordpress page created with block editor and CSS</p>
+            </div>
+          </div>
+          <div class="project-tile" id="pr5">
+            <img src="pictures/fcc-portfolio-logo.png" alt="Logo of Krzysztof Łęczycki portfolio page">
+            <div class="project-description">
+              <h3>First portfolio project</h3>
+              <p>Page created with html and css as freeCodeCamp project</p>
+            </div>
+          </div>
+          <div class="project-tile" id="pr6">
+            <img src="pictures/guitar-store-logo.png" alt="logo of fictional guitar store page">
+            <div class="project-description">
+              <h3>Product landing page</h3>
+              <p>Page created with html and css as freeCodeCamp project</p>
+            </div>
+          </div>
+        </div>
+        <div id="project-window" class="window-closed">
+          <button id="project-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+              <path d="M4.34 2.93l12.73 12.73-1.41 1.41L2.93 4.35z"/>
+              <path d="M17.07 4.34L4.34 17.07l-1.41-1.41L15.66 2.93z"/>
+            </svg>            
+          </button>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="subtitle-wrapper">
+          <div class="base">
+            <img src="mini-city-left.svg" alt="">
+            <h2 class="section-subtitle">Contact</h2>
+            <img src="mini-city-right.svg" alt="">
+          </div>
+          <div class="mirror">
+            <img src="mini-city-left.svg" alt="">
+            <p role="presentation" class="section-subtitle">Contact</p>
+            <img src="mini-city-right.svg" alt="">
+          </div>
+        </div>
+        <div class="wrapper">
+          <article class="sub-wrapper">
+            <h3>Krzysztof Łęczycki</h3>
+            <p>If you have any questions send an email or a message via Facebook. If you wish to see <a class="repo-link" href="https://github.com/KrzysztofLeczycki/portfolio" target="_blank">source code of my portfolio see Github repo.</a></p>
+            <a class="email" href="email:krz.lecz@gmail.com">
+              <svg class="envelope" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+                <metadata> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
+                <g><g transform="translate(0.000000,511.000000) scale(0.100000,-0.100000)"><path d="M100,110v-3445.3h4900h4900V110v3445.3H5000H100V110z M9287.5,2738v-206.7l-2143.7-1315L5000-98.6L2856.2,1206.8L714.4,2512.1l-1.9,216.3v214.4H5000h4287.5V2738z M9283.7-1126.5l-5.7-991.5L8234.8-812.6C7660.5-96.7,7191.6,500.5,7191.6,510c0,11.5,468.9,308.2,1043.2,660.4l1043.2,641.2l5.7-974.3C9285.6,301.4,9285.6-581,9283.7-1126.5z M1816.9,1126.4l1016.4-618.2L1799.7-787.7c-568.5-712-1047-1307.3-1060.4-1322.6c-23-23-26.8,273.7-26.8,1938.9v1967.7l44-24.9C781.4,1758,1259.9,1467.1,1816.9,1126.4z M4129.1-282.4c411.5-250.7,775.2-461.3,809.6-468.9c32.5-9.6,90-9.6,124.4,0c36.4,7.7,402,222,817.3,476.6c413.4,252.6,756.1,461.3,763.7,461.3c5.7,0,534-654.6,1175.2-1454.7l1161.8-1454.7H5009.6c-3841.5,0-3973.6,1.9-3948.7,34.5c99.5,139.7,2302.6,2871.1,2310.3,2867.3C3376.9,175.1,3719.5-33.6,4129.1-282.4z"/></g>
+                </svg>
+               krz.lecz@gmail.com
+              </a>
+          </article>
+  
+          <div class="sub-wrapper">
+            <img class="portrait" src="portrait.jpg" alt="Krzysztof Łęczycki web developer cartoon like portrait">
+            <div class="socials">
+              <a href="https://codepen.io/kryle" target="_blank">
+                <svg class="codepen" aria-label="Codepen profile" viewBox="0 0 128 128" xml:space="preserve"><g id="_x36__stroke"><g id="Codepen"><rect clip-rule="evenodd" fill="none" fill-rule="evenodd" height="128" width="128"/><path clip-rule="evenodd" d="M117,73.204L103.24,64L117,54.796V73.204z     M69.5,112.22V86.568L93.348,70.62l19.248,12.872L69.5,112.22z M64,77.012L44.548,64L64,50.988L83.456,64L64,77.012z M58.5,112.22    L15.404,83.492L34.656,70.62L58.5,86.568V112.22z M11,54.796L24.764,64L11,73.204V54.796z M58.5,15.78v25.652L34.656,57.384    L15.404,44.508L58.5,15.78z M69.5,15.78l43.096,28.728L93.348,57.384L69.5,41.432V15.78z M127.952,43.784    c-0.012-0.084-0.032-0.16-0.044-0.24c-0.028-0.156-0.056-0.312-0.096-0.46c-0.024-0.092-0.06-0.18-0.088-0.268    c-0.044-0.136-0.088-0.268-0.14-0.4c-0.036-0.092-0.08-0.184-0.124-0.268c-0.056-0.128-0.116-0.248-0.188-0.364    c-0.048-0.088-0.104-0.172-0.156-0.256c-0.072-0.116-0.148-0.228-0.232-0.336c-0.06-0.08-0.124-0.16-0.188-0.236    c-0.088-0.104-0.18-0.204-0.276-0.3c-0.072-0.072-0.14-0.148-0.216-0.212c-0.104-0.092-0.208-0.18-0.312-0.264    c-0.084-0.064-0.164-0.128-0.248-0.188c-0.032-0.02-0.06-0.048-0.092-0.068l-58.5-39c-1.848-1.232-4.252-1.232-6.104,0l-58.496,39    c-0.032,0.02-0.06,0.048-0.092,0.068c-0.088,0.06-0.168,0.124-0.248,0.188C2.004,40.264,1.9,40.352,1.8,40.444    c-0.076,0.064-0.148,0.14-0.22,0.212c-0.096,0.096-0.188,0.196-0.272,0.3c-0.068,0.076-0.132,0.156-0.192,0.236    c-0.08,0.108-0.156,0.22-0.228,0.336c-0.056,0.084-0.108,0.168-0.16,0.256C0.66,41.9,0.6,42.02,0.54,42.148    c-0.04,0.084-0.084,0.176-0.12,0.268c-0.056,0.132-0.1,0.264-0.144,0.4c-0.028,0.088-0.06,0.176-0.084,0.268    c-0.04,0.148-0.068,0.304-0.096,0.46c-0.016,0.08-0.036,0.156-0.044,0.24C0.02,44.016,0,44.256,0,44.5v39    c0,0.24,0.02,0.48,0.052,0.72c0.008,0.076,0.028,0.156,0.044,0.236c0.028,0.156,0.056,0.308,0.096,0.46    c0.024,0.092,0.056,0.18,0.084,0.268c0.044,0.132,0.088,0.268,0.144,0.404c0.036,0.088,0.08,0.176,0.12,0.264    c0.06,0.124,0.12,0.244,0.188,0.368c0.052,0.084,0.104,0.168,0.16,0.252c0.072,0.116,0.148,0.224,0.228,0.332    c0.06,0.084,0.124,0.164,0.192,0.24c0.084,0.1,0.176,0.204,0.272,0.296c0.072,0.076,0.144,0.148,0.22,0.216    c0.1,0.092,0.204,0.18,0.312,0.264c0.08,0.064,0.16,0.128,0.248,0.188c0.032,0.02,0.06,0.048,0.092,0.068l58.496,39    C61.872,127.692,62.936,128,64,128s2.128-0.308,3.052-0.924l58.5-39c0.032-0.02,0.06-0.048,0.092-0.068    c0.084-0.06,0.164-0.124,0.248-0.188c0.104-0.084,0.208-0.172,0.312-0.264c0.076-0.068,0.144-0.14,0.216-0.216    c0.096-0.092,0.188-0.196,0.276-0.296c0.064-0.076,0.128-0.156,0.188-0.24c0.084-0.108,0.16-0.216,0.232-0.332    c0.052-0.084,0.108-0.168,0.156-0.252c0.072-0.124,0.132-0.244,0.188-0.368c0.044-0.088,0.088-0.176,0.124-0.264    c0.052-0.136,0.096-0.272,0.14-0.404c0.028-0.088,0.064-0.176,0.088-0.268c0.04-0.152,0.068-0.304,0.096-0.46    c0.012-0.08,0.032-0.16,0.044-0.236c0.032-0.24,0.048-0.48,0.048-0.72v-39C128,44.256,127.984,44.016,127.952,43.784z"/></g></g>
+                </svg>
+              </a>
+              <a href="https://www.facebook.com/profile.php?id=100001570504600" target="_blank">
+                <svg class="facebook" aria-label="Facebook profile" x="0px" y="0px"
+                width="96.124px" height="96.123px" viewBox="0 0 96.124 96.123" style="enable-background:new 0 0 96.124 96.123;"
+                xml:space="preserve">
+                <g>
+                <path d="M72.089,0.02L59.624,0C45.62,0,36.57,9.285,36.57,23.656v10.907H24.037c-1.083,0-1.96,0.878-1.96,1.961v15.803
+                 c0,1.083,0.878,1.96,1.96,1.96h12.533v39.876c0,1.083,0.877,1.96,1.96,1.96h16.352c1.083,0,1.96-0.878,1.96-1.96V54.287h14.654
+                 c1.083,0,1.96-0.877,1.96-1.96l0.006-15.803c0-0.52-0.207-1.018-0.574-1.386c-0.367-0.368-0.867-0.575-1.387-0.575H56.842v-9.246
+                 c0-4.444,1.059-6.7,6.848-6.7l8.397-0.003c1.082,0,1.959-0.878,1.959-1.96V1.98C74.046,0.899,73.17,0.022,72.089,0.02z"/>
+                </g>
+              </svg>
+             </a>
+             <a href="https://github.com/KrzysztofLeczycki" target="_blank">
+              <svg version="1.1" aria-label="Github profile" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+                <metadata> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
+                <g><path d="M500,10C236.3,10,22.6,229.4,22.6,500c0,270.6,213.8,490,477.4,490c263.7,0,477.4-219.4,477.4-490C977.4,229.4,763.7,10,500,10z M643.3,940.1c-23,4.6-31.1-9.9-31.1-22.3c0-15.2,0.5-65.2,0.5-127.2c0-43.3-14.5-71.6-30.7-86c100.8-11.4,206.5-50.7,206.5-228.8c0-50.6-17.5-92.1-46.5-124.5c4.6-11.7,20.2-58.8-4.5-122.7c0,0-37.9-12.5-124.3,47.6c-36.1-10.3-74.8-15.5-113.2-15.7c-38.5,0.2-77.2,5.3-113.2,15.7c-86.4-60-124.4-47.6-124.4-47.6c-24.6,63.9-9.1,111-4.4,122.7c-28.9,32.4-46.5,73.8-46.5,124.5c0,177.7,105.6,217.5,206,229.2c-12.9,11.6-24.6,32-28.7,62c-25.8,11.8-91.3,32.3-131.6-38.6c0,0-23.9-44.5-69.3-47.8c0,0-44.2-0.6-3.1,28.2c0,0,29.7,14.2,50.2,67.8c0,0,26.6,90.2,152.4,62.2c0.2,38.7,0.6,67.9,0.6,78.9c0,12.3-8.2,26.6-30.9,22.3c-179.8-61.3-309.3-235.1-309.3-440C47.7,244,250.2,36.4,500,36.4c249.8,0,452.3,207.6,452.3,463.8C952.3,705,822.8,878.7,643.3,940.1z"/></g>
+              </svg>
+             </a>
+              
+            </div>
+            </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p class="credits">All rigths reserved. Design and code by Krzysztof Łęczycki, 2022</p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
