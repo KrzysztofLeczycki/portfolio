@@ -1,5 +1,5 @@
 /*
-	Menu button
+	Menu button 
 */
 
 const menuBtn = document.getElementById('menu-btn');
